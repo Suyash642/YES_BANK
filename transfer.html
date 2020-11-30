@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>online money transfer</title>
+<style>
+   .topnav {
+  background-color:mediumseagreen;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color:red;
+  color: white;
+}
+body{
+         background:slateblue;  
+    }
+table
+{
+	background-color:teal;
+	font-size:20px;
+}
+</style>
+</head>
+<body><center><h1 style="font-size:50px; color:white">YES BANK ✔</h1></center>
+    <div class="topnav">
+    <a  href="Home.html">Home</a>
+  <a  href="account.html">My Account</a>
+  <a class="active" href="transfer.html">Fund Transfer</a>
+  <a  href="recharge.html">Mobile Recharge</a>
+        <a  href="contact.html">Contact Us</a>
+</div> 
+    <div> <br> <br> <br>
+         <form >
+        <table align="center" cellpadding = "15" border="2" width="60%" style="color:white">
+               <tr>
+                <td>Account Type</td>
+                <td>
+                <input type="radio" name="type" value="saving" />
+               Savings  </td>
+	       <td><input type="radio" name="type" value="credit"/>
+                Current</td>
+            </tr>
+            <tr>
+            <td>IFSC CODE</td>
+                <td><input type="text"  maxlength="10" placeholder="Enter IFSC CODE" /></td>
+                <td>Bank Account</td>
+                <td><input type="text"  maxlength="10" placeholder="Enter Bank Account" /></td>
+                
+            </tr>
+            <tr>
+                <td colspan="2">Name as per Bank</td>
+                <td><input type="text"  maxlength="10" placeholder="Enter your name" />
+
+                </td>
+            </tr>
+             <tr>
+                <td colspan="2"> Bank Name</td>
+                <td><input type="text"  maxlength="10" placeholder="Bank Name" />
+
+                </td>
+            </tr>
+            
+            
+                <tr>
+                <td colspan="2">Amount(INR)</td>
+                <td colspan="2"><input type="email" name="EmailID" maxlength="4" placeholder="Enter Amount"/></td>
+               
+              
+                </tr>
+
+            <tr>
+           <br> <br> <br>
+            </tr>
+                <tr>
+                <td colspan="4" align="center">
+                    <input type="submit" value="Proceed to pay"></td>
+                    
+                </tr>
+</table>
+</form>
+    </div>
+</body>
+</html>
